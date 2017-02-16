@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1C2767464CA29F6EBC225C768170FE82F3D985FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7FE6599617D6E1A5814141C7BD9D4C56206E33D2" : 9223372036854775807,
+    "1C2767464CA29F6EBC225C768170FE82F3D985FC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7DFCCBB9-64B0-422A-A1C1-612B3F7E5175",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7FE6599617D6E1A5814141C7BD9D4C56206E33D2" : "MasterClub%E5%89%AF%E6%9C%AC\/MasterClub\/",
+    "1C2767464CA29F6EBC225C768170FE82F3D985FC" : "MasterClub%E5%89%AF%E6%9C%AC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MasterClub",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MasterClub.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Dwysen\/MasterClub.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1C2767464CA29F6EBC225C768170FE82F3D985FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Dwysen\/MasterClub.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7FE6599617D6E1A5814141C7BD9D4C56206E33D2"
+    }
+  ]
+}
