@@ -38,6 +38,16 @@ class LibraryViewController: UIViewController {
         
         self.addChildViewController(vc2)
         
+        let vc3 = VideoVieController()
+        
+        self.addChildViewController(vc3)
+        
+//        let vc4 = InterlocutionTableViewController()
+//        
+//         self.addChildViewController(vc4)
+        
+        
+        
 //        for i in 0 ..< titleArr.count {
 //            
 //            let vc = LessonPlanTableViewController()

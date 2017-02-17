@@ -1,16 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1C2767464CA29F6EBC225C768170FE82F3D985FC",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3BEF952121788DE9ABF9AABE922DB4CC527F4D21",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1C2767464CA29F6EBC225C768170FE82F3D985FC" : 9223372036854775807,
     "7FE6599617D6E1A5814141C7BD9D4C56206E33D2" : 9223372036854775807,
-    "1C2767464CA29F6EBC225C768170FE82F3D985FC" : 9223372036854775807
+    "3BEF952121788DE9ABF9AABE922DB4CC527F4D21" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7DFCCBB9-64B0-422A-A1C1-612B3F7E5175",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1C2767464CA29F6EBC225C768170FE82F3D985FC" : "MasterClub%E5%89%AF%E6%9C%AC\/",
     "7FE6599617D6E1A5814141C7BD9D4C56206E33D2" : "MasterClub%E5%89%AF%E6%9C%AC\/MasterClub\/",
-    "1C2767464CA29F6EBC225C768170FE82F3D985FC" : "MasterClub%E5%89%AF%E6%9C%AC\/"
+    "3BEF952121788DE9ABF9AABE922DB4CC527F4D21" : "MasterClub-master\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "MasterClub",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Dwysen\/MasterClub.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1C2767464CA29F6EBC225C768170FE82F3D985FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Dwysen\/MasterClub-master.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3BEF952121788DE9ABF9AABE922DB4CC527F4D21"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Dwysen\/MasterClub.git",

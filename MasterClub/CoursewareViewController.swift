@@ -25,6 +25,7 @@ class CoursewareViewController: UIViewController {
     
     func setupCollectionView(){
         let collectionViewLayout = UICollectionViewFlowLayout()
+         
         let collectionView = UICollectionView(frame: CGRect(x: 0, y: 0, width: SCREENW, height: SCREENH - 64 - kTitlesViewH - 49), collectionViewLayout: collectionViewLayout)
         collectionView.backgroundColor = UIColor.white
         collectionView.delegate = self

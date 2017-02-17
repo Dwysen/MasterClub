@@ -17,6 +17,10 @@
 		1855F7C11E557C3C00670CB7 /* LessonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855F7C01E557C3C00670CB7 /* LessonCell.swift */; };
 		1855F7E11E559D7B00670CB7 /* CoursewareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855F7E01E559D7B00670CB7 /* CoursewareViewController.swift */; };
 		1855F7E31E55A29100670CB7 /* CourewareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855F7E21E55A29100670CB7 /* CourewareCell.swift */; };
+		187E14A51E568A2D0068178F /* VideoVieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E14A41E568A2D0068178F /* VideoVieController.swift */; };
+		187E14A71E5697140068178F /* VideoMiddleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E14A61E5697140068178F /* VideoMiddleCell.swift */; };
+		187E14AA1E56EE900068178F /* InterlocutionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E14A91E56EE900068178F /* InterlocutionTableViewController.swift */; };
+		187E14AD1E56F6A70068178F /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E14AC1E56F6A70068178F /* MeViewController.swift */; };
 		18FE86351E51A6FA0009DE95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE86341E51A6FA0009DE95 /* AppDelegate.swift */; };
 		18FE86371E51A6FA0009DE95 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FE86361E51A6FA0009DE95 /* HomeViewController.swift */; };
 		18FE863C1E51A6FA0009DE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FE863B1E51A6FA0009DE95 /* Assets.xcassets */; };
@@ -39,6 +43,10 @@
 		1855F7C01E557C3C00670CB7 /* LessonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonCell.swift; sourceTree = "<group>"; };
 		1855F7E01E559D7B00670CB7 /* CoursewareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursewareViewController.swift; sourceTree = "<group>"; };
 		1855F7E21E55A29100670CB7 /* CourewareCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourewareCell.swift; sourceTree = "<group>"; };
+		187E14A41E568A2D0068178F /* VideoVieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVieController.swift; sourceTree = "<group>"; };
+		187E14A61E5697140068178F /* VideoMiddleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoMiddleCell.swift; sourceTree = "<group>"; };
+		187E14A91E56EE900068178F /* InterlocutionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterlocutionTableViewController.swift; sourceTree = "<group>"; };
+		187E14AC1E56F6A70068178F /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		18FE86311E51A6FA0009DE95 /* MasterClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FE86341E51A6FA0009DE95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18FE86361E51A6FA0009DE95 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +125,7 @@
 				1855F7B61E553B0C00670CB7 /* LibraryViewController.swift */,
 				1855F7B81E553DF300670CB7 /* LessonViewTableController.swift */,
 				1855F7E01E559D7B00670CB7 /* CoursewareViewController.swift */,
+				187E14A41E568A2D0068178F /* VideoVieController.swift */,
 			);
 			name = C;
 			sourceTree = "<group>";
@@ -126,8 +135,33 @@
 			children = (
 				1855F7C01E557C3C00670CB7 /* LessonCell.swift */,
 				1855F7E21E55A29100670CB7 /* CourewareCell.swift */,
+				187E14A61E5697140068178F /* VideoMiddleCell.swift */,
 			);
 			name = V;
+			sourceTree = "<group>";
+		};
+		187E14A81E56EE2E0068178F /* Interlocution */ = {
+			isa = PBXGroup;
+			children = (
+				187E14A91E56EE900068178F /* InterlocutionTableViewController.swift */,
+			);
+			name = Interlocution;
+			sourceTree = "<group>";
+		};
+		187E14AB1E56F69A0068178F /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				187E14AE1E56F6AD0068178F /* C */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		187E14AE1E56F6AD0068178F /* C */ = {
+			isa = PBXGroup;
+			children = (
+				187E14AC1E56F6A70068178F /* MeViewController.swift */,
+			);
+			name = C;
 			sourceTree = "<group>";
 		};
 		18FE86281E51A6F90009DE95 = {
@@ -152,7 +186,9 @@
 		18FE86331E51A6FA0009DE95 /* MasterClub */ = {
 			isa = PBXGroup;
 			children = (
+				187E14AB1E56F69A0068178F /* Me */,
 				18FE86341E51A6FA0009DE95 /* AppDelegate.swift */,
+				187E14A81E56EE2E0068178F /* Interlocution */,
 				1855F7B51E553AAE00670CB7 /* Library */,
 				18364D111E5421C10028DE60 /* Main */,
 				18364D101E54218E0028DE60 /* Home */,
@@ -309,18 +345,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187E14AD1E56F6A70068178F /* MeViewController.swift in Sources */,
 				1855F7E11E559D7B00670CB7 /* CoursewareViewController.swift in Sources */,
 				18FE86371E51A6FA0009DE95 /* HomeViewController.swift in Sources */,
+				187E14A51E568A2D0068178F /* VideoVieController.swift in Sources */,
 				18FE864D1E51B3D00009DE95 /* HomeBannerView.swift in Sources */,
 				18364D1E1E544EAB0028DE60 /* Global.swift in Sources */,
 				18FE864F1E51B4A50009DE95 /* UIViewExt.swift in Sources */,
 				1855F7B41E5535B900670CB7 /* FriendViewController.swift in Sources */,
 				180DA2FA1E52A3360036A490 /* circleButton.swift in Sources */,
 				18FE86351E51A6FA0009DE95 /* AppDelegate.swift in Sources */,
+				187E14A71E5697140068178F /* VideoMiddleCell.swift in Sources */,
 				1855F7B91E553DF300670CB7 /* LessonViewTableController.swift in Sources */,
 				1855F7C11E557C3C00670CB7 /* LessonCell.swift in Sources */,
 				1855F7E31E55A29100670CB7 /* CourewareCell.swift in Sources */,
 				1855F7B71E553B0C00670CB7 /* LibraryViewController.swift in Sources */,
+				187E14AA1E56EE900068178F /* InterlocutionTableViewController.swift in Sources */,
 				18FE864B1E51AEDC0009DE95 /* MCNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

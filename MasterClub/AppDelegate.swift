@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let homeController = MCNavigationViewController(rootViewController: HomeViewController())
         let friendController = MCNavigationViewController(rootViewController: FriendViewController())
         let articleController = MCNavigationViewController(rootViewController: LibraryViewController())
-        let answerController = MCNavigationViewController(rootViewController: UIViewController())
+        let answerController = MCNavigationViewController(rootViewController: InterlocutionTableViewController())
         let meController = MCNavigationViewController(rootViewController: UIViewController())
         
         tabbarController.viewControllers = [homeController,friendController,articleController,answerController,meController]

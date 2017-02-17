@@ -42,20 +42,20 @@ class CourewareCell: UICollectionViewCell {
         subjectLabel?.text = "高中化学"
         addSubview(subjectLabel!)
         
-        teacherLabel = UILabel(frame: CGRect(x: 5,y: 200,width: self.width,height: 10))
+        teacherLabel = UILabel(frame: CGRect(x: 5,y: 205,width: self.width,height: 10))
         teacherLabel?.numberOfLines = 2
         teacherLabel?.font = UIFont.systemFont(ofSize: 13)
         teacherLabel?.textColor = UIColor.lightGray
         teacherLabel?.text = "北京十三中学熊婉清"
         addSubview(teacherLabel!)
         
-        priceLabel = UILabel(frame: CGRect(x: 5,y: 210 ,width: self.width / 2,height: 30))
+        priceLabel = UILabel(frame: CGRect(x: 5,y: 215 ,width: self.width / 4,height: 30))
         priceLabel?.font = UIFont.systemFont(ofSize: 15)
         priceLabel?.textColor = UIColor.red
         priceLabel?.text = "￥9.9"
         addSubview(priceLabel!)
         
-        purchaserCountLabel = UILabel(frame: CGRect(x: self.width / 2 + 5,y: 210 ,width: self.width / 2,height: 30))
+        purchaserCountLabel = UILabel(frame: CGRect(x: self.width / 4 + 20,y: 215 ,width: self.width / 4 * 3,height: 30))
         purchaserCountLabel?.font = UIFont.systemFont(ofSize: 13)
         purchaserCountLabel?.textColor = UIColor.lightGray
         purchaserCountLabel?.text = "99人已经购买"

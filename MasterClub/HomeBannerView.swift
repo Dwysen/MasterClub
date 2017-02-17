@@ -39,7 +39,7 @@ class Banner: UIView{
     }
     
     func addTimer(){
-        let timer1 = Timer.init(timeInterval: 5, target: self, selector: #selector(nextPageView), userInfo: nil, repeats: true)
+        let timer1 = Timer.init(timeInterval: 8, target: self, selector: #selector(nextPageView), userInfo: nil, repeats: true)
         RunLoop.current.add(timer1, forMode: RunLoopMode.commonModes)
         timer = timer1
     }
@@ -54,9 +54,15 @@ class Banner: UIView{
             item = 0
             section += 1
         }
+        if section == 99 {
+        timer.invalidate()
+        }
         self.pageControl.currentPage = item;
         let nextIndexPath = IndexPath(row: item, section: section)
+      
         CollectionView!.scrollToItem(at: nextIndexPath, at: UICollectionViewScrollPosition.left, animated: true)
+        
+       
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -68,14 +74,19 @@ class Banner: UIView{
 extension Banner:UICollectionViewDelegate, UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    
         let cell = CollectionView?.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+        if cell == nil{
+     
+        }
         let colorArr = [UIColor.blue,UIColor.black,UIColor.cyan]
         cell?.backgroundColor = colorArr[indexPath.row]
         return cell!
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 99999
+      
+        return 100
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
